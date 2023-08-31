@@ -15,9 +15,9 @@ class Search_A_2D_Matrix {
     }
 
     public static boolean searchMatrix(int[][] matrix, int target) {
-        int low = 0, high = matrix.length - 1;
         int m = matrix.length;
         int n = matrix[0].length;
+        int low = 0, high = m - 1;
         int row = 0;
         while (low <= high) {
             int mid = low + (high - low) / 2;

@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Guess_Number_Highr_or_Lower {
     /**
      * Forward declaration of guess API.

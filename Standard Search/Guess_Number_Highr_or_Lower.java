@@ -24,4 +24,10 @@ class Guess_Number_Highr_or_Lower {
         }
         return 0;
     }
+
+    int guess(int num) {
+        // return -1 if num is higher than the picked number
+        // return 1 if num is lower than the picked number
+        return 0;
+    }
 }

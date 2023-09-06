@@ -1,4 +1,3 @@
-import java.util.*;
 
 class First_Bad_Version {
     public int firstBadVersion(int n) {
@@ -14,5 +13,10 @@ class First_Bad_Version {
                 left = mid + 1;
         }
         return ans;
+    }
+
+    public boolean isBadVersion(int n) {
+        // return true if n is a bad version
+        return true;
     }
 }
